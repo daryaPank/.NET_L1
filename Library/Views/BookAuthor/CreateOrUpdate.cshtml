@@ -1,0 +1,53 @@
+﻿@model BusinessInterop.Data.BookAuthorDto
+
+@{
+    ViewData["Title"] ="Fвторства";
+}
+
+<br />
+
+<h2 >Авторства</h2>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <form asp-action="CreateOrUpdate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <input type="hidden" value="@(Model is null ? 0 : Model.Id)" name="Id" />
+
+            <div class="form-group">
+                <label asp-for="BookId" class="control-label">Книга</label>
+
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="BookId" class="form-control" asp-items="ViewBag.BookIds">
+                    <option selected="selected" value=""></option>
+                </select>
+
+                <span asp-validation-for="BookId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="AuthorId" class="control-label">Автор</label>
+
+                <select asp-antiforgery="true" data-live-search="true" autocomplete="true" asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorIds">
+                    <option selected="selected" value=""></option>
+                </select>
+
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
+            </div>
+
+
+            <div class="form-group" align="center">
+                <div class="btn-group">
+                    <input type="submit" value="Сохранить" class="btn btn-outline-success" />
+
+                    <a class="btn btn-outline-danger" asp-action="Index">Отмена</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

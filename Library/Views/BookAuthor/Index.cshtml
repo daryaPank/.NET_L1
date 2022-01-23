@@ -1,0 +1,33 @@
+﻿@model IEnumerable<BusinessInterop.Data.BookAuthorDto>
+
+@{
+    ViewData["Title"] = "Авторство";
+}
+
+<br />
+
+<h2  style="font-size:x-large; color:#dda0dd;">Авторство</h2>
+
+<hr />
+
+<div class="container" style="border-radius: 5px">
+    
+            <div align="center">
+                @Html.ActionLink("Добавить", "Create", "BookAuthor", null, new { @class = "btn btn-outline-primary" })
+            </div>
+</div>
+
+<div class="main" style="display:flex; flex-direction:row; align-content:center; flex-wrap:wrap; padding:5px;">
+    @foreach (var item in Model)
+    {
+        <div style="width:150px; height:150px; margin:5px; border:2px solid #dda0dd; ">
+            <p style="text-align:center">@item.Book.Name </p>
+            <p style="text-align:center">@item.Author.Name</p>
+            <div align="center">
+                @Html.ActionLink("Редактировать", "Update", new { id = item.Id }, null)
+            </div>
+        </div>
+        
+    }
+</div>
+    

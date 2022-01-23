@@ -1,0 +1,69 @@
+﻿@{
+    ViewData["Title"] = "Главная страница";
+}
+
+<br />
+
+<h2 style="font-size:x-large; color:#dda0dd;">Библиотека №1</h2>
+
+<hr />
+
+<div class="main" style="display:flex; flex-direction:row; align-content:center; flex-wrap:wrap; padding:5px;">
+    
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px;font-size:large ">
+            @Html.ActionLink("Книги", "Index", "Book", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+        
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Экземпляры", "Index", "Example", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Авторы", "Index", "Author", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Авторства", "Index", "BookAuthor", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Жанры", "Index", "Genre", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Читатели", "Index", "Reader", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Сотрудники", "Index", "Librarian", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+
+    
+    <div class="container" style="border-radius: 5px; width: 400px; height: 200px; border:5px solid #DDA0DD; display: flex; align-items: center; justify-content: center; margin:5px ">
+        <div class="row" style="border-radius:3px">
+            @Html.ActionLink("Выдачи", "Index", "Lending", null, new { @class = "nav-link text-dark" })
+        </div>
+    </div>
+</div>
+
+
+
+
+

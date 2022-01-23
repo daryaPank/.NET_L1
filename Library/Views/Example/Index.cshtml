@@ -1,0 +1,32 @@
+﻿@model IEnumerable<BusinessInterop.Data.ExampleDto>
+
+@{
+    ViewData["Title"] = "Экземпляры";
+}
+
+<br />
+
+<h2 style="font-size:x-large; color:#dda0dd;">Экземпляры</h2>
+
+
+<div class="container" style="border-radius: 5px">
+   
+            <div align="center">
+                @Html.ActionLink("Добавить", "Create", "Example", null, new { @class = "btn btn-outline-primary" })
+            </div>
+</div>
+
+<div class="main" style="display:flex; flex-direction:row; align-content:center; flex-wrap:wrap; padding:5px;">
+    @foreach (var item in Model)
+    {
+        <div style="width:150px; height:150px; margin:5px; border:2px solid #dda0dd;">
+            <p style="text-align:center">@item.Number</p>
+            <p style="text-align:center">@item.Book.Name</p>
+            <div align="center">
+                @Html.ActionLink("Редактировать", "Update", new { id = item.Id }, null)
+                @Html.ActionLink("Удалить", "Delete", new { id = item.Id }, null)
+            </div>
+        </div>        
+    }
+</div>
+   

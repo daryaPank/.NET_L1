@@ -1,0 +1,9 @@
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\bin\Debug\netcoreapp3.1\BusinessInterop.deps.json
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\bin\Debug\netcoreapp3.1\BusinessInterop.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\bin\Debug\netcoreapp3.1\BusinessInterop.pdb
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.csproj.AssemblyReference.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.AssemblyInfoInputs.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.AssemblyInfo.cs
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.csproj.CoreCompileInputs.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessInterop\obj\Debug\netcoreapp3.1\BusinessInterop.pdb

@@ -1,0 +1,14 @@
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\BusinessServices.deps.json
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\BusinessServices.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\BusinessServices.pdb
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\Business.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\BusinessInterop.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\Business.pdb
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\bin\Debug\netcoreapp3.1\BusinessInterop.pdb
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.csproj.AssemblyReference.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.AssemblyInfoInputs.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.AssemblyInfo.cs
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.csproj.CoreCompileInputs.cache
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.csproj.CopyComplete
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.dll
+C:\Users\Darya\Desktop\универ\3 курс\ДОТНЕТ\Новая папка\BusinessServices\obj\Debug\netcoreapp3.1\BusinessServices.pdb
